@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>  
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #FF9A00;
+        }
+
+        th {
+            border: 1px solid white;
+        }
+
+        .bg-red {
+            background-color: red;
+            font-size: 50px;
+        }
+
+        .b {
+            height: 150px;
+            width: 150px;
+        }
+
+        .a {
+            min-width: 50px;
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+
+        ul {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <thead style="height: 10vh;">
+            <tr>
+                <th class="a"></th>
+                <th class="bg-red"><i>East West University</i></th>
+                <th><img class="b"
+                        src="side-pic.png"
+                        alt="" /></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="height: 76vh;">
+                <th></th>
+                <th style="min-width: 600px">
+                    <div style="padding: 10px 20px;">
+                        <div class="btn">
+                            <img src="logo.png" alt="" height="55px" width="450px"/>
+                        </div>
+                        <div style="text-align: left;">
+                            <h1>Why East West University?</h1> <br><br>
+                            <p>EWU offers world-class degree programs taught by experts, 
+                               and East-West is committed to providing each and every student with the guidance and support they need to succeed. 
+                               Affordability The New York Times listed EWU as having the 5th lowest average graduate student debt in a survey of more than 1000 public 
+                               and private colleges and universities. Location EWU is conveniently located in Chicago's South Loop neighborhood, easily accessible by 
+                               all forms of public transportation: EWU's new 17-story Student Life Center features multiple gyms, basketball courts, computer labs and 
+                               an expansive library.</p>
+                        </div> <br>
+                        <div style="text-align: left;">
+                            <h1>Computer and Information Science</h1> <br><br>
+                            <p>The Computer and Information Science Program at East West University puts forth great emphasis on technical and professional 
+                                education that merges the academic course work with relevant "hands-on" laboratory experiences. The study of Computer Science 
+                                is the combination of computation and solving information-based problems in the world by the application of theoretical and 
+                                practical techniques. The Computer and Information Science program is deddicated to briding the gap between academic pursuits
+                                 and technical competencies required in the business environment. The program provides a wide range of courses to lay 
+                                 the foundation for further studies and graduate work.</p>
+                        </div> <br>
+                        <div style="text-align: left;">
+                            <h1>Program Objectives</h1> <br>
+                            <ul>
+                                <li> Create Software applications in a variety of programming languages. </li>
+                                <li>Customize applications by using commercial spreadsheets prsentation and/or datbase application.</li>
+                                <li>Develop client or web-based databased applications. </li>
+                                <li>Develop/design an enterprise data warehouse (EDW) infrastructure to support the increasing needs of business to facilitate critical decision making.</li>
+                                <li>Develop a Business Intelligence/Analytics solution to bring business users, data, and reporting to key decision makers. </li>
+                                <li>Design distributed processing computer netwerks including telecommunications and data transmission techniques.</li>
+                                <li>Design/develop E-commerce infrastructure, web sites and payment systems. </li>
+                                <li>Create dynamic animation for digital media and the web.</li>
+                                <li>Develop comprehensive projects integrating video and audio technologies, and create complex, realistic video games.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </th>
+                
+            </tr>
+            <tr class="bg-red">
+                <th colspan="3" style="border: 0; font-size: 20px; padding: 10px;">Copyright East West University, 2016. All Rights Reserved</th>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

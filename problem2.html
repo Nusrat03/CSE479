@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+	h2{
+        margin: 0%;
+        color: #e9d998;
+        padding-left: 5%;
+    }
+	.main{
+        width: 600px;
+        height: 800px;
+        border: 5px solid rgb(8, 8, 8);
+        background-color: rgb(209, 143, 19);
+    }
+	.sign {
+        background-color: #212437;
+        text-align: center;
+    }
+	td,
+        .check{
+            color: #CBCB89;
+        }
+		.check {
+            text-align: center;
+        }
+        .btn{
+            margin-left: 65%;
+        }
+        input[type=text],
+        [type=email],
+        [type=password],
+        [type=number],
+        select {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid rgb(124, 124, 123);
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .cncl{
+            background-color: #D5594D;
+            border: none;
+            padding: 10px;
+            border-radius: 10%;
+            color: azure;
+        }
+        .submit{
+            background-color: #5BC667;
+            border: none;
+            padding: 10px;
+            border-radius: 10%;
+            color: azure;
+        }
+</style>
+</head>
+<body>
+    <div class = "main">
+        <div>
+            <h2>Sign Up</h2>
+        </div>
+        <div class = "sign">
+            <div>
+                <table>
+                    <tr>
+                        <td>First Name </td>
+                        <td>
+                            <input type = "text" placeholder = "Enter First Name.....">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type = "text" placeholder = "Enter Last Name......">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Screen Name</td>
+                        <td>
+                            <input type = "text" placeholde r= "Enter Screen Name......">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>
+                            <select>
+                                <option value = "">Day</option>
+                                <option value = "1">1</option>
+                                <option value = "2">2</option>
+                                <option value = "3">3</option>
+
+                            </select>
+                            <select>
+                                <option value = "">Month</option>
+                                <option value = "01">January</option>
+                                <option value = "02">February</option>
+
+                            </select>
+                            <select>
+                                <option value = "">Year</option>
+                                <option value = "2022">2022</option>
+                                <option value = "2021">2021</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type = "radio" id = "male" name = "sex" value = "male">
+                            <label for = "male">Male</label>
+                            <input type = "radio" id = "female" name = "sex" value = "female">
+                            <label for = "female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country</td>
+                        <td>
+                            <select id = "country" name = "country">
+                                <option value = "">( Please select a country)</option>
+                                <option value = "USA">USA</option>
+                                <option value = "Canada">Canada</option>
+                                <option value = "United Kingdom">United Kingdom</option>
+                                <option value = "Australia">Australia</option>
+                                <option value = "India">India</option>
+                                <option value = "Bangladesh">Bangladesh</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email </td>
+                        <td>
+                            <input type = "email" placeholder = "Enter E-mail......">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>
+                            <input type = "number" placeholder = "Enter Phone...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type = "password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type = "password">
+                        </td>
+                    </tr>
+                    </tr>
+                </table>
+                <div class =  "check">
+                    <input type = "checkbox" name = "" id = "">I agree to the Terms of Use
+                </div>
+            </div>
+            </table>
+        </div>
+        <div>
+            <table class = "btn">
+                <tr>
+                    <td><button class = "submit" type = "submit">Submit</button></td>
+                    <td><button class = "cncl" type = "cancel">Cancel</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

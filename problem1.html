@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+	body{
+        text-align: center;
+    }
+    .main{
+        border-style: solid;
+        height: 700px;
+        width: 600px;
+        padding: 2%;
+    }
+	h2{
+        margin-top: 2%;
+        text-align: center;
+    }
+	input[type=text],
+    [type=email],
+    [type=password],
+    [type=number],
+    select{
+        width: 80%;
+        padding: 12px;
+        margin-top: 2px;
+        border: 1px solid rgb(124, 124, 123);
+        border-radius: 3px;
+		box-sizing: border-box;
+    }
+	input[type="button"]{
+        margin-right: 150px;
+        margin-top: 10px;
+        width: 100px;
+        font-size: larger;
+        border-color: #81b9e7;
+        border-style: solid;
+        border-width: 2px;
+        color: black;
+        padding: 5px;
+        cursor: pointer;
+    }
+	label{
+        margin: 2px;
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+    textarea{
+        width: 80%;
+        padding: 12px;
+        margin-top: 2px;
+        border: 1px solid rgb(124, 124, 123);
+        border-radius: 3px;
+		box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+    <div class = "main">
+        <table>
+            <h2>Registration Form</h2>
+            <tr>
+                <td>
+                    <label for = "username">User id: </label>
+                </td>
+                <td>
+                    <input type = "text" id = "userid" name = "userid">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "password">Password: </label>
+                </td>
+                <td>
+                    <input type = "password" id = "pwd" name = "pwd" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "Name">Name: </label>
+                </td>
+                <td>
+                    <input type = "text" id = "name" name = "name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "address">Address: </label>
+                </td>
+                <td>
+                    <input type = "text" id = "add" name = "add">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "country">Country: </label>
+                </td>
+                <td>
+                    <select id = "country" required>
+                        <option value = "" disabled selected hidden>(Please select a country)</option>
+                        <option value = "Bangladesh">Bangladesh</option>
+                        <option value = "USA">USA</option>
+                        <option value = "Canada">Canada</option>
+                        <option value = "Australia">Australia</option>
+						<option value = "United Kingdom">United Kingdom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "zipcode">Zip Code: </label>
+                </td>
+                <td>
+                    <input type = "number" id = "zip" name = "zip" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "email">Email: </label>
+                </td>
+                <td>
+                    <input type = "email" id = "mail" name = "email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "sex">Sex: </label>
+                </td>
+                <td>
+                    <input type = "radio" id = "male" name = "sex" value = "male">
+                    <label for = "male">Male</label>
+                    <input type = "radio" id = "female" name = "sex" value = "female">
+                    <label for = "female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "language">Language: </label>
+                </td>
+                <td>
+                    <input type = "checkbox" id = "english" name = "language" value = "english">
+                    <label for = "english">English</label>
+                    <input type = "checkbox" id = "non-english" name = "language" value = "non-english">
+                    <label for = "non-english">Non-English</label> 
+                </td>
+            </tr>
+            <tr>
+                <td>About:</td>
+                <td><textarea cols = "30" rows = "8"></textarea></td>
+            </tr>
+            <tr>
+
+            </tr>
+
+        </table>
+
+        <div class = "submit-btn">
+            <input type = "button" value = "Submit">
+        </div>
+    </div>
+</body>
+</html>

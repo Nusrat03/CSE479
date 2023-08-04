@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+table{
+	border-top: 3px Solid grey;
+	border-right: 3px Solid black;
+	border-bottom: 3px Solid black;
+	border-left: 3px Solid grey;
+}
+th, td{
+	border: 1px Solid black;
+}
+</style>
+<body>
+<table align = 'center'>
+	<tr>
+		<td colspan = '3' align = 'center'>Top</td>
+	</tr>
+	<tr>
+		<td rowspan = '2'>way left</td>
+		<td>middle up</td>
+		<td rowspan = '2'>way right</td>
+	</tr>
+	<tr>
+		<td>middle down</td>
+	</tr>
+	<tr>
+		<td colspan = '3' align = 'center'>br</tr>
+</table>
+</body>
+</html>

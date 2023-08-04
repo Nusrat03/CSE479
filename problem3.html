@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+	.container{
+        width: 800px;
+        height: 640px;
+        border: 5px solid black;
+        border-collapse: collapse;
+        display:block;
+    }
+	.header{
+        height: 30px;
+        background-color: #71ccbd;
+    }
+	.head{
+        color: black;
+        font-size: larger;
+    }
+	.header a{
+        margin-left: 40px;
+        color: black;
+        font-size: small;
+        text-decoration: none;  
+    }
+	.footer{
+		text-align: center;
+        background-color: rgb(191, 191, 185);
+        height: 35px;
+    }
+	input[type = button]{
+        background-color: #2a7a6d;
+        color: aliceblue;
+        border: none;
+        padding: 6px;
+    }
+    input[type = text],
+    [type = email],
+    [type = password],
+    [type = number],
+    select{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        margin-right: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        box-sizing: border-box;
+    }
+    a{
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <div class = "container">
+        <table cellspacing = "0" cellpadding = "0";>
+            <div class = "header">
+                <b class = "head">Workshop Regestration</b>
+                    <a href = "#">More Actions ▼</a>
+            </div>
+                <table>
+                    <tr>
+                        <td>
+                            <a href = "">Register now while seats are available!</a>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action = "">
+                                <table cellspacing = "0" cellpadding = "0">
+                                    <tr>
+                                        <td><strong>First Name</strong></td>
+                                        <td><input type = "text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Last Name</strong></td>
+                                        <td><input type = "text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Company Institution</strong></td>
+                                        <td><input type = "text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Address</strong></td>
+                                        <td><textarea cols = "20" rows = "5"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>City</strong></td>
+                                        <td><input type = "text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>State/Province/Region</strong></td>
+                                        <td>
+                                            <select type = "date">
+                                                <option value = "" disabled selected hidden>-Select-</option>
+                                                <option>A</option>
+                                                <option>B</option>
+                                                <option>C</option>
+                                                <option>D</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Country</strong></td>
+                                        <td>
+                                            <select id = "country" required>
+                                                <option value = "" disabled selected hidden>-Select-</option>
+                                                <option value = "USA">USA</option>
+                                                <option value = "Bangladesh">Bangladesh</option>
+                                                <option value = "Australia">Australia</option>
+                                                <option value = "Canada">Canada</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Email</strong></td>
+                                        <td><input type = "email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Phone Number</strong></td>
+                                        <td><input type = "number"></td>
+                                    </tr>
+                                </table>
+                        </td>
+                        <td>
+                            <table cellspacing = "0" cellpadding = "0">
+                                <tr>
+                                    <td><a href = "">Lunch</a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Meal Preference</strong></td>
+                                    <td>
+                                        <select id = "veg" required>
+                                            <option value = "vegetarian">Vegetarian</option>
+                                            <option value = "Pav Bhaji Recipe">Pav Bhaji Recipe</option>
+                                            <option value = "Manchurian">Manchurian</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href = "">Payment Details</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Payment Mode</b>
+                                    </td>
+                                    <td>
+                                        <input type = "checkbox" id = "cash" name = "payment" value = "Cash">
+                                        <label for = "cash">Cash</label><br>
+                                        <input type = "checkbox" id = "Cheque" name = "payment" value = "Cheque">
+                                        <label for = "cheque">Cheque</label><br>
+                                        <input type = "checkbox" id = "demand" name = "payment" value = "Deman Draft">
+                                        <label for = "cheque">Demand Draft</label><br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>DD/Check No</strong></td>
+                                    <td><input type = "number"></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Drawn On(Bank Name)</strong></td>
+                                    <td><input type = "text"></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Payable At</strong></td>
+                                    <td><input type = "number"></td>
+                                </tr>
+                            </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+    <div class = "footer">
+        <input type = "button" value = "Submit">
+        <input type = "button" value = "Reset">
+    </div>
+</div>
+</body>
+</html>

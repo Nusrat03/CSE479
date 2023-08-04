@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+	.main{
+            width: 70%;
+            border: 4px solid black;
+        }
+    h3{
+            color: rgb(137, 21, 245);
+            text-align: center;
+        }
+	form{
+            background-color: rgb(137, 21, 245);
+            color: white;
+            margin: 5%;
+        }
+        .contain {
+            width: 90%;
+        }
+        input[type = text],
+        [type = email],
+        [type = password],
+        [type = number],
+        select {
+            padding: 2px;
+            margin-top: 2px;
+            border: 1px solid rgb(124, 124, 123);
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .sub-contain {
+            text-align: center;
+        }
+        .footer{
+            text-align: center;
+        }
+        button{
+            margin: 5px;
+        }
+</style>
+</head>
+<body>
+    <table class = "main" cellspacing = "0" cellpadding = "0">
+        <tr>
+            <td></td>
+            <td>
+                <h3><u>STUDENT REGISTRATION FORM</u></h3>
+                <form action = "">
+                    <table class = "contain">
+                        <tr>
+                            <td>FIRST NAME</td>
+                            <td>
+                                <input type = "text" maxlength = "30">
+                            <label>(max 30 characters a-z and A-Z)</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>LAST NAME</td>
+                            <td><input type = "text" maxlength = "30">
+                                <label>(max 30 characters a-z and A-Z)</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DATE OF BIRTH</td>
+                            <td>
+                                <select type = "date">
+                                    <option disabled selected = "true">Day</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <select type = "date">
+                                    <option disabled selected = "true">Month</option>
+                                    <option>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                </select>
+                                <select type = "date">
+                                    <option disabled selected = "true">Year</option>
+                                    <option>1885</option>
+                                    <option>1886</option>
+                                    <option>1887</option>
+                                    <option>1888</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                EMAIL ID
+                            </td>
+                            <td>
+                                <input type = "email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MOBILE NUMBER</td>
+                            <td><input type = "number" maxlength = "10">
+                                <label>(10 digit number)</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                GENDER
+                            </td>
+                            <td>
+                                Male<input type = "radio" name = "gender" />
+                                Female<input type = "radio" name = "gender" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ADDRESS</td>
+                            <td><textarea cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                CITY
+                            </td>
+                            <td>
+                                <input type = "text" maxlength = "30">
+                                <label>(max 30 characters a-z and A-Z)</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                PIN CODE
+                            </td>
+                            <td>
+                                <input type = "number" maxlength = "6">
+                                <label>(6 digit number)</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                STATE
+                            </td>
+                            <td>
+                                <input type = "text" maxlength = "30">
+                                <label>(max 30 characters a-z and A-Z)</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                COUNTRY
+                            </td>
+                            <td>
+                                <input type = "text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                HOBBIES
+                            </td>
+                            <td>
+                                Drawing<input type = "checkbox" />
+                                Singing<input type = "checkbox" />
+                                Dancing<input type = "checkbox" />
+                                Sketching<input type = "checkbox" /><br>
+                                Others<input type = "checkbox" />
+                                <input type = "text"><br>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class = "sub-contain">
+                        <tr style = "text-align: center;">
+                            <td>QUALIFICATION</td>
+                            <td><strong>SI.No.</strong></td>
+                            <td><strong>Examinatino</strong></td>
+                            <td><strong>Board</strong></td>
+                            <td><strong>Percentage</strong></td>
+                            <td><strong>Year of Passing</strong></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type = "text" maxlength = "10"></td>
+                            <td><input type = "text" maxlength = "4"></td>
+                            <td><input type = "text"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type = "text" maxlength = "10"></td>
+                            <td><input type = "text" maxlength = "4"></td>
+                            <td><input type = "text"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type = "text" maxlength = "10"></td>
+                            <td><input type = "text" maxlength = "4"></td>
+                            <td><input type = "text"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type = "text" maxlength = "10"></td>
+                            <td><input type = "text" maxlength = "4"></td>
+                            <td><input type = "text"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td style = "text-align: center;">(10 char max)</td>
+                            <td style = "text-align: center;">(upto 2 decimal)</td>
+                        </tr>
+                        <tr>
+                            <td>COURSES<br> APPLIED FOR</td>
+                            <td>
+                                <label for = "BCA">BCA</label>
+                                <input type = "radio" id = "BCA" value = "BCA">
+                                </td>
+                                <td>
+                                    <label for = "B.Com">B.Com</label>
+                                    <input type = "radio" id = "BCA" value = "BCA">
+                                </td> 
+                                <td>
+                                    <label for = "B.Sc">B.Sc</label>
+                                    <input type = "radio" id = "BCA" value = "BCA">
+                                    <label for = "BA">B.A.</label>
+                                    <input type = "radio" id = "BCA" value = "BCA">
+                                </td>
+                                <td>
+                                </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class = "footer">
+                        <button type = "submit">Submit</button>
+                        <button type = "button">Reset</button>
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    </table>
+</body>
+</html>
